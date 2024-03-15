@@ -1,0 +1,42 @@
+.contacts {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    padding-top: 50px;
+    padding-bottom: 101px;
+}
+
+.contacts__subtitle {
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 54px;
+}
+
+.contacts__text {
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 700;
+    font-style: normal;
+    margin-bottom: 38px;
+}
+
+.contacts__text_margin-0 {
+    margin-bottom: 0;
+}
+
+.contacts__item {
+    display: inline-block;
+}
+
+.contacts__item:not(:last-child) {
+    margin-right: 26px;
+}
+
+.contacts__icon {
+    display: inline-block;
+    margin-right: 30px;
+    vertical-align: middle;
+}

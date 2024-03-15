@@ -1,0 +1,61 @@
+.hall {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.hall__subtitle {
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.hall__box {
+    display: inline-block;
+    position: relative;
+    height: 347px;
+    width: 578px;
+    background-repeat: no-repeat;
+    background-size: 578px;
+    background-position: center;
+    margin-right: 18px;
+    margin-bottom: 18px;
+}
+
+.hall__box:nth-child(odd) {
+    margin-right: 0;
+}
+
+.hall__box:nth-last-child(-n+2) {
+    margin-bottom: 0;
+}
+
+.hall__box_background_vibes {
+    background-image: url('../img/80svibes.jpg');
+}
+
+.hall__box_background_starwars {
+    background-image: url('../img/starwars.jpg');
+}
+
+.hall__box_background_wildwest {
+    background-image: url('../img/wildwest.jpg');
+}
+
+.hall__box_background_neonstyle {
+    background-image: url('../img/neonstyle.jpg');
+}
+
+.hall__text {
+    position: absolute;
+    font-size: 70px;
+    font-weight: 700;
+    text-transform: uppercase;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    white-space: nowrap;
+}

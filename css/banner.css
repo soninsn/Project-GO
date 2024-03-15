@@ -1,0 +1,36 @@
+.banner {
+    position: relative;
+    height: 969px;
+    padding-top: 146px;
+    padding-bottom: 50px;
+    max-width: 1210px;
+    margin: 0 auto;
+}
+
+.banner::after {
+    position: absolute;
+    content: "";
+    background-image: url('../img/vr.png');
+    background-size: contain;
+    width: 675px;
+    height: 762px;
+    right: 0;
+    bottom: 0;
+}
+
+.banner__title {
+    display: inline-block;
+    font-size: 150px;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: -14px;
+    line-height: 150px;
+}
+
+.banner__slogan {
+    display: inline-block;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 50px;
+    margin-left: 100px;
+}
