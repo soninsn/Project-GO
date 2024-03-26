@@ -1,6 +1,7 @@
 .booking {
     padding-top: 50px;
     padding-bottom: 50px;
+    background-color: #440f51;
 }
 
 .booking__form {
@@ -13,5 +14,121 @@
     font-weight: 700;
     text-transform: uppercase;
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
+}
+
+.booking__form {
+    padding: 0;
+    border: 0;
+}
+
+.form__legend {
+    display: block;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 40px;
+    line-height: 28px;
+}
+
+.form__holl {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+.form__label-btn {
+    width: 250px;
+    height: 55px;
+    border-radius: 8px;
+    background-color: #fff;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 55px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000;
+}
+
+.form__input-hall {
+    display: none;
+}
+
+.form__fun {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 60px;
+}
+
+.booking__form-fun {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0;
+    border: 0;
+}
+
+.form__legend-fun {
+    display: block;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 23px;
+}
+
+.form__input-radio {
+    width: 27px;
+    height: 27px;
+    margin-right: 12px;
+    vertical-align: text-bottom;
+}
+
+.form__input-fun {
+    width: 25px;
+    height: 25px;
+    margin-right: 12px;
+    vertical-align: text-bottom;
+}
+
+.form__label {
+    font-size: 22px;
+}
+
+.form__data {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+}
+
+.form__data-box {
+    width: 300px;
+    margin-bottom: 40px;
+}
+
+.form__input-data {
+    width: 300px;
+    height: 52px;
+    margin-bottom: 14px;
+}
+
+.form__label-data {
+    font-size: 14px;
+}
+
+.booking__button {
+    width: 300px;
+    height: 60px;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #6c0287;
+}
+
+.form__input-email {
+    width: 300px;
+    height: 52px;
+    margin-bottom: 40px;
 }

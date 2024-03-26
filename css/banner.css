@@ -1,7 +1,7 @@
 .banner {
     position: relative;
-    height: 969px;
-    padding-top: 146px;
+    height: 919px;
+    padding-top: 50px;
     padding-bottom: 50px;
     max-width: 1210px;
     margin: 0 auto;
@@ -15,7 +15,7 @@
     width: 675px;
     height: 762px;
     right: 0;
-    bottom: 0;
+    bottom: 50px;
 }
 
 .banner__title {
@@ -33,4 +33,68 @@
     font-weight: 400;
     line-height: 50px;
     margin-left: 100px;
+    margin-bottom: 30px;
+}
+
+.banner__box {
+    display: flex;
+    gap: 40px;
+    align-items: flex-end;
+    margin-bottom: 150px;
+}
+
+.banner__box-hall {
+    width: 193px;
+}
+
+.banner__hall-text {
+    font-weight: 900;
+    font-size: 100px;
+    color: #cd06ff;
+    text-align: center;
+    line-height: 141px;
+}
+
+.banner__box-device {
+    width: 166px;
+}
+
+.banner__device-text {
+    font-weight: 900;
+    font-size: 60px;
+    text-transform: uppercase;
+    color: #cd06ff;
+    text-align: center;
+    line-height: 106px;
+}
+
+.banner__text {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 34px;
+    text-align: center;
+}
+
+.banner__button {
+    width: 374px;
+    height: 80px;
+    font-weight: 700;
+    font-size: 26px;
+    text-transform: uppercase;
+    color: #fff;
+    background: #6c0287;
+    border: none;
+    border-radius: 10px;
+}
+
+.banner__arrow {
+    width: 97px;
+    height: 97px;
+    border: none;
+    position: absolute;
+    background-color: transparent;
+    bottom: 90px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
 }
