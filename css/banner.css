@@ -87,6 +87,18 @@
     border-radius: 10px;
 }
 
+.banner__button:hover {
+    background-color: #840aa3;
+}
+
+.banner__button:focus {
+    background-color: #840aa3;
+}
+
+.banner__button:active {
+    background-color: #640aa3;
+}
+
 .banner__arrow {
     width: 97px;
     height: 97px;
@@ -97,4 +109,29 @@
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 1;
+}
+
+.banner__arrow:hover > svg {
+    fill: #fff;
+}
+
+.banner__arrow:hover > svg > rect {
+    fill: #6c0287
+}
+
+.banner__arrow:focus {
+    outline:1px solid #cd06ff;
+    outline-offset: -5px;
+}
+
+.banner__arrow:active > svg {
+    fill: #cd06ff;
+}
+
+.banner__arrow:active > svg > circle {
+    stroke: #cd06ff;
+}
+
+.banner__arrow:active > svg > rect {
+    fill: #fff;
 }

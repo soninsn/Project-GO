@@ -36,3 +36,19 @@
     border-radius: 10px;
     line-height: 30px;
 }
+
+.header__button:hover {
+    border: 0;
+    background-color: #6c0287;
+} 
+
+.header__button:focus {
+    border: 0;
+    background-color: #6c0287;
+}
+
+.header__button:active {
+    border: 1px solid #000;
+    background-color: #640aa3;
+}
+

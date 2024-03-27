@@ -47,3 +47,19 @@
 .faq__item:nth-child(even)::after {
     background-image: url(../img/open.svg);
 }
+
+.faq__item:nth-child(even):hover:after {
+    background-image: url(../img/open-white-hover.svg);
+}
+
+.faq__item:nth-child(even):active:after {
+    background-image: url(../img/open-white-acteve.svg);
+}
+
+.faq__item:hover:after {
+    background-image: url(../img/open-purp-hover.svg);
+}
+
+.faq__item:active:after {
+    background-image: url(../img/open-purp-active.svg);
+}

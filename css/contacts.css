@@ -69,3 +69,25 @@
     font-size: 14px;
     text-align: right;
 }
+
+.social__link {
+    display: block;
+    width: 50px;
+    height: 50px;
+    color: #fff;
+    outline: none;
+    outline: 1px solid transparent;
+}
+
+.social__link:hover {
+    color: #eadeed;
+}
+
+.social__link:focus {
+    color: #eadeed;
+    border: 1px solid #cd06ff;
+}
+
+.social__link:active {
+    color: #cd06ff;
+}

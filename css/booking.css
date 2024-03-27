@@ -51,6 +51,29 @@
     color: #000;
 }
 
+.form__label-btn:hover {
+    border: 3px solid #640aa3;
+    background-color: #eadeed;
+}
+
+.form__label-btn:focus {
+    border: 3px solid #640aa3;
+    background-color: #fff;
+}
+
+.form__label-btn:active {
+    border: 3px solid #fff;
+    background-color: #6c0287;
+}
+
+.form__input-radio:focus {
+    outline: 1px solid #cd06ff;
+} 
+
+.form__input-radio:focus, .form__input-fun:focus, .form__input-data:focus, .form__input-email:focus {
+    outline: 1px solid #cd06ff;
+}
+
 .form__input-hall {
     display: none;
 }
@@ -125,6 +148,20 @@
     font-size: 22px;
     text-transform: uppercase;
     color: #6c0287;
+}
+
+.booking__button:hover {
+    background-color: #eadeed;
+    border: 3px solid #6c0287;
+}
+
+.booking__button:focus {
+    background-color: #fff;
+    border: 3px solid #6c0287;
+}
+
+.booking__button:active {
+    background-color: #eadeed;
 }
 
 .form__input-email {
