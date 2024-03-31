@@ -81,13 +81,16 @@
 
 .social__link:hover {
     color: #eadeed;
+    transition: color 0.4s ease;
 }
 
 .social__link:focus {
     color: #eadeed;
     border: 1px solid #cd06ff;
+    transition: color 0.4s ease, border 0.4s ease;
 }
 
 .social__link:active {
     color: #cd06ff;
+    transition: color 0.4s ease;
 }

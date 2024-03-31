@@ -89,20 +89,22 @@
 
 .banner__button:hover {
     background-color: #840aa3;
+    transition: background-color 0.5s ease;
 }
 
 .banner__button:focus {
     background-color: #840aa3;
+    transition: background-color 0.5s ease;
 }
 
 .banner__button:active {
     background-color: #640aa3;
+    transition: background-color 0.5s ease;
 }
 
 .banner__arrow {
     width: 97px;
     height: 97px;
-    border: none;
     position: absolute;
     background-color: transparent;
     bottom: 90px;
@@ -111,27 +113,25 @@
     z-index: 1;
 }
 
-.banner__arrow:hover > svg {
-    fill: #fff;
-}
-
-.banner__arrow:hover > svg > rect {
-    fill: #6c0287
+.banner__arrow:hover {
+    background-color: #fff;
+    border-radius: 50%;
+    color: #6c0287;
+    transition: background-color 0.4s ease, color 0.4s ease;
 }
 
 .banner__arrow:focus {
-    outline:1px solid #cd06ff;
-    outline-offset: -5px;
+    outline: 1px solid #cd06ff;
+    transition: background-color 0.4s ease, color 0.4s ease;
 }
 
-.banner__arrow:active > svg {
-    fill: #cd06ff;
+.banner__arrow:active {
+    background-color: #cd06ff;
+    color: #fff;
+    transition: background-color 0.4s ease, color 0.4s ease;
 }
 
 .banner__arrow:active > svg > circle {
     stroke: #cd06ff;
-}
-
-.banner__arrow:active > svg > rect {
-    fill: #fff;
+    transition: stroke 0.4s ease;
 }

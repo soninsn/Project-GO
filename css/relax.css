@@ -30,6 +30,11 @@
     padding-bottom: 28px;
 }
 
+.relax__item:hover, .relax__item-audio:hover, .relax__item-netflix:hover {
+    transform: scale(1.1);
+    transition: transform 0.7s ease;
+}
+
 .relax__item-audio {
     width: 380px;
     height: 228px;

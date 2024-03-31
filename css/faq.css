@@ -50,16 +50,20 @@
 
 .faq__item:nth-child(even):hover:after {
     background-image: url(../img/open-white-hover.svg);
+    transition: background-image 0.4s ease;
 }
 
 .faq__item:nth-child(even):active:after {
     background-image: url(../img/open-white-acteve.svg);
+    transition: background-image 0.4s ease;
 }
 
 .faq__item:hover:after {
     background-image: url(../img/open-purp-hover.svg);
+    transition: background-image 0.4s ease;
 }
 
 .faq__item:active:after {
     background-image: url(../img/open-purp-active.svg);
+    transition: background-image 0.4s ease;
 }
