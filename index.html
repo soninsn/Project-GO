@@ -76,7 +76,7 @@
               VR очки
             </p>
           </li>
-          <li class="relax__item relax__item_background_audio">
+          <li class="relax__item-audio relax__item_background_audio">
             <p class="relax__text">
               Аудио-система 5.1 с отличным звуком
             </p>
@@ -208,18 +208,10 @@
           <fieldset class="booking__form">
             <legend class="form__legend">Выбери дату и время</legend>
             <div class="form__data">
-              <div class="form__data-box">
-                <label class="form__label-data">Дата
-                  <input class="form__input-data" type="date" name="date" required>
-                </label>
-          
-                <label class="form__label-data">Время
-                  <input class="form__input-data" type="time" name="time" required>
-                </label>
-          
-                <label class="form__label-data">Сколько человек
-                  <input class="form__input-data" type="number" name="number" required>
-                </label>
+              <div class="form__data-time-box">
+                  <input class="form__input-data-time" type="text" name="date" onfocus="(this.type = 'date')" onblur="(this.type='text')" placeholder="Дата" required>
+                  <input class="form__input-data-time" type="text" name="time" onfocus="(this.type = 'time')" onblur="(this.type='text')" placeholder="Время" required>
+                  <input class="form__input-data-number" type="number" name="number" onfocus="(this.type = 'number')" onblur="(this.type='text')" placeholder="Сколько человек" required>
               </div>
 
               <div class="form__data-box">
@@ -242,6 +234,7 @@
                 </label>
                 <button class="booking__button" type="submit">Забронировать</button>
               </div>
+              
             </div>
           </fieldset>
         </form>

@@ -125,15 +125,33 @@
     gap: 50px;
 }
 
+.form__data-time-box{
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    gap: 36px 32px;
+    padding-top: 23px;
+    align-content: flex-start;
+}
+
 .form__data-box {
     width: 300px;
-    margin-bottom: 40px;
 }
 
 .form__input-data {
     width: 300px;
     height: 52px;
     margin-bottom: 14px;
+}
+
+.form__input-data-time {
+    width: 134px;
+    height: 52px;
+}
+
+.form__input-data-number {
+    width: 300px;
+    height: 52px;
 }
 
 .form__label-data {

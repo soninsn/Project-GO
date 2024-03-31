@@ -17,13 +17,27 @@
     display: flex;
     flex-wrap: wrap;
     gap: 40px 20px;
+
 }
 
 .relax__item {
     width: 380px;
+    height: 228px;
     background-repeat: no-repeat;
-    background-size: 380px;
+    background-size: cover;
     background-position: center;
+    align-content: flex-end;
+    padding-bottom: 28px;
+}
+
+.relax__item-audio {
+    width: 380px;
+    height: 228px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    align-content: flex-end;
+    padding-bottom: 6px;
 }
 
 .relax__item_background_vr {
@@ -48,6 +62,8 @@
     background-repeat: no-repeat;
     background-size: 380px;
     background-position: 0 -90px;
+    align-content: flex-end;
+    padding-bottom: 6px;
 }
 
 .relax__item_background_playstation {
@@ -58,5 +74,4 @@
     font-weight: 700;
     max-width: 320px;
     padding-left: 40px;
-    padding-top: 166px;
 }
