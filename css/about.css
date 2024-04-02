@@ -52,7 +52,7 @@
     content: "\201C";
     font-size: 44px;
     font-weight: 900;
-    color: #6c0287;
+    color: var(--color-purple, #6c0287);
     padding-right: 10px;
 }
 
@@ -60,7 +60,7 @@
     content: "\201D";
     font-size: 44px;
     font-weight: 900;
-    color: #6c0287;
+    color: var(--color-purple, #6c0287);
     padding-left: 10px;
 }
 

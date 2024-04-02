@@ -1,7 +1,7 @@
 .booking {
     padding-top: 50px;
     padding-bottom: 50px;
-    background-color: #440f51;
+    background-color: var(--color-dark-purple, #440f51);
 }
 
 .booking__form {
@@ -42,41 +42,41 @@
     width: 250px;
     height: 55px;
     border-radius: 8px;
-    background-color: #fff;
+    background-color: var(--color-white, #fff);
     font-weight: 700;
     font-size: 30px;
     line-height: 40px;
     line-height: 55px;
     text-align: center;
     text-transform: uppercase;
-    color: #000;
+    color: var(--color-black, #000);
 }
 
 .form__label-btn:hover {
-    border: 3px solid #640aa3;
-    background-color: #eadeed;
+    border: 3px solid var(--color-blue-violet, #640aa3);
+    background-color: var(--color-pink, #eadeed);
     transition: background-color 0.4s ease, border 0.4s ease;
 }
 
 .form__label-btn:focus {
-    border: 3px solid #640aa3;
-    background-color: #fff;
+    border: 3px solid var(--color-blue-violet, #640aa3);
+    background-color: var(--color-white, #fff);
     transition: background-color 0.4s ease, border 0.4s ease;
 }
 
 .form__label-btn:active {
-    border: 3px solid #fff;
-    background-color: #6c0287;
+    border: 3px solid var(--color-white, #fff);
+    background-color: var(--color-purple, #6c0287);
     transition: background-color 0.4s ease, border 0.4s ease;
 }
 
 .form__input-radio:focus {
-    outline: 1px solid #cd06ff;
+    outline: 1px solid var(--color-bright-purple, #cd06ff);
     transition: outline 0.4s ease;
 } 
 
 .form__input-radio:focus, .form__input-fun:focus, .form__input-data:focus, .form__input-email:focus {
-    outline: 1px solid #cd06ff;
+    outline: 1px solid var(--color-bright-purple, #cd06ff);
     transition: outline 0.4s ease;
 }
 
@@ -171,23 +171,23 @@
     font-weight: 700;
     font-size: 22px;
     text-transform: uppercase;
-    color: #6c0287;
+    color: var(--color-purple, #6c0287);
 }
 
 .booking__button:hover {
-    background-color: #eadedd;
-    border: 3px solid #6c0287;
+    background-color: var(--color-pink, #eadeed);
+    border: 3px solid var(--color-purple, #6c0287);
     transition: background-color 0.4s ease, border 0.4s ease;
 }
 
 .booking__button:focus {
-    background-color: #fff;
-    border: 3px solid #6c0287;
+    background-color: var(--color-white, #fff);
+    border: 3px solid var(--color-purple, #6c0287);
     transition: background-color 0.4s ease, border 0.4s ease;
 }
 
 .booking__button:active {
-    background-color: #eadeed;
+    background-color: var(--color-pink, #eadeed);
     transition: background-color 0.4s ease;
 }
 

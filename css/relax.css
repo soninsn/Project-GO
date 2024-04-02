@@ -43,6 +43,7 @@
     background-position: center;
     align-content: flex-end;
     padding-bottom: 6px;
+    transform: translateY(70px);
 }
 
 .relax__item_background_vr {
@@ -69,6 +70,7 @@
     background-position: 0 -90px;
     align-content: flex-end;
     padding-bottom: 6px;
+    transform: translateY(70px);
 }
 
 .relax__item_background_playstation {

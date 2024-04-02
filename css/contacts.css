@@ -74,23 +74,23 @@
     display: block;
     width: 50px;
     height: 50px;
-    color: #fff;
+    color: var(--color-white, #fff);
     outline: none;
     outline: 1px solid transparent;
 }
 
 .social__link:hover {
-    color: #eadeed;
+    color: var(--color-pink, #eadeed);
     transition: color 0.4s ease;
 }
 
 .social__link:focus {
-    color: #eadeed;
-    border: 1px solid #cd06ff;
+    color: var(--color-pink, #eadeed);
+    border: 1px solid var(--color-bright-purple, #cd06ff);
     transition: color 0.4s ease, border 0.4s ease;
 }
 
 .social__link:active {
-    color: #cd06ff;
+    color: var(--color-bright-purple, #cd06ff);
     transition: color 0.4s ease;
 }

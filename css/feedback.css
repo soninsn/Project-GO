@@ -40,6 +40,22 @@
     border-radius: 50%;
     margin-bottom: 11px;
 }
+.feedback__box {
+    position: relative;
+    margin-bottom: 11px;
+}
+
+.feedback__box::after {
+    position: absolute;
+    content: "";
+    background: radial-gradient(50% 50% at 50% 50%, rgba(196, 196, 196, 0) 0%, rgba(108, 2, 135, 0.5) 100%);
+    width: 280px;
+    height: 280px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+}
 
 .feedback__img_object-position-40 {
     object-position: 0px -40px;
